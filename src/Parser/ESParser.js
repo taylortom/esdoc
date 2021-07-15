@@ -1,6 +1,6 @@
 import fs from 'fs-extra';
 import Plugin from '../Plugin/Plugin.js';
-import * as babylon from 'babylon';
+import * as babylon from '@babel/parser';
 
 /**
  * ECMAScript Parser class.
